@@ -73,7 +73,6 @@ const Movie = ({ item, status }) => {
             <div className='bg-white rounded-lg shadow-lg w-[300px] ' onClick={stopPropagation}>
               <div className='relative rounded-lg'>
                 <img
-                  src={`https://image.tmdb.org/t/p/w500/${item?.poster_path}`}
                   alt={item?.title}
                   className='rounded-t-lg'
                 />
